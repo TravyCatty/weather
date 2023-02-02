@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 function App() {
-  const apiKey = 'f6296ceb552c03aa11d918d6369f030e'
+  const apiKey = 'apikey'
   const [weatherData, setWeatherData] = useState([{}])
   const [city, setCity] = useState('')
 
